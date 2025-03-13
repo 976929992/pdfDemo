@@ -5,29 +5,44 @@
     <title>PDF文档</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
             max-width: 800px;
-            margin: 0 auto;
+            margin: 40px auto;
             padding: 20px;
+            background-color: #f6f8fa;
+        }
+        h1 {
+            color: #24292e;
+            border-bottom: 1px solid #e1e4e8;
+            padding-bottom: 0.3em;
         }
         .pdf-link {
             display: block;
-            padding: 15px;
-            margin: 10px 0;
-            background-color: #f0f0f0;
-            border-radius: 5px;
+            padding: 20px;
+            margin: 20px 0;
+            background-color: white;
+            border: 1px solid #e1e4e8;
+            border-radius: 6px;
             text-decoration: none;
-            color: #333;
+            color: #0366d6;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            transition: all 0.2s ease;
         }
         .pdf-link:hover {
-            background-color: #e0e0e0;
+            background-color: #f1f8ff;
+            border-color: #0366d6;
+            text-decoration: none;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+        }
+        .pdf-icon {
+            margin-right: 10px;
         }
     </style>
 </head>
 <body>
     <h1>PDF文档列表</h1>
     <a class="pdf-link" href="调度系统与上位系统通信协议.pdf">
-        查看：调度系统与上位系统通信协议.pdf
+        📄 调度系统与上位系统通信协议.pdf
     </a>
 </body>
 </html>
